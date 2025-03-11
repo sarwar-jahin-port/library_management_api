@@ -1,0 +1,62 @@
+[
+    {
+        "model": "book.author",
+        "pk": 1,
+        "fields": {
+            "name": "Jane Austen",
+            "biograpy": "Jane Austen was an English novelist known primarily for her six major novels, which interpret, critique, and comment upon the British landed gentry at the end of the 18th century.",
+            "date_of_birth": "1775-12-16",
+            "nationality": "British",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 2,
+        "fields": {
+            "name": "Charles Dickens",
+            "biograpy": "Charles John Huffam Dickens was an English writer and social critic. He created some of the world's best-known fictional characters and is regarded by many as the greatest novelist of the Victorian era.",
+            "date_of_birth": "1812-02-07",
+            "nationality": "British",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 3,
+        "fields": {
+            "name": "Virginia Woolf",
+            "biograpy": "Adeline Virginia Woolf was an English writer, considered one of the most important modernist 20th-century authors and also a pioneer in the use of stream of consciousness as a narrative device.",
+            "date_of_birth": "1882-01-25",
+            "nationality": "British",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 4,
+        "fields": {
+            "name": "Gabriel García Márquez",
+            "biograpy": "Gabriel José de la Concordia García Márquez was a Colombian novelist, short-story writer, screenwriter, and journalist, known affectionately and familiarly as Gabo or Gabito throughout Latin America.",
+            "date_of_birth": "1927-03-06",
+            "nationality": "Colombian",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.author",
+        "pk": 5,
+        "fields": {
+            "name": "Chinua Achebe",
+            "biograpy": "Chinua Achebe was a Nigerian novelist, poet, professor, and critic. His first novel 'Things Fall Apart' (1958) is considered his magnum opus, and is the most widely read book in modern African literature.",
+            "date_of_birth": "1930-11-16",
+            "nationality": "Nigerian",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    }
+]

@@ -1,0 +1,902 @@
+[
+    {
+        "model": "book.book",
+        "pk": 1,
+        "fields": {
+            "isbn": "978-0743273565",
+            "title": "The Da Vinci Code",
+            "publication_year": "2003-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 10,
+            "available_copies": 7,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "A gripping mystery thriller set in Paris.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 2,
+        "fields": {
+            "isbn": "978-0316769488",
+            "title": "The Partner",
+            "publication_year": "1997-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 5,
+            "available_copies": 3,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about a lawyer who disappears with firm money.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 3,
+        "fields": {
+            "isbn": "978-0141439518",
+            "title": "Pride and Prejudice",
+            "publication_year": "1813-01-01",
+            "publisher": "T. Egerton, Whitehall",
+            "edition": "First Edition",
+            "total_copies": 8,
+            "available_copies": 8,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A classic novel of manners set in rural England.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 4,
+        "fields": {
+            "isbn": "978-0007119288",
+            "title": "The Lord of the Rings",
+            "publication_year": "1954-01-01",
+            "publisher": "Allen & Unwin",
+            "edition": "Second Edition",
+            "total_copies": 12,
+            "available_copies": 9,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "The epic fantasy adventure in Middle-earth.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 5,
+        "fields": {
+            "isbn": "978-0451526359",
+            "title": "Animal Farm",
+            "publication_year": "1949-01-01",
+            "publisher": "Secker & Warburg",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 6,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A satirical allegorical novella.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 6,
+        "fields": {
+            "isbn": "978-0743273589",
+            "title": "Angels & Demons",
+            "publication_year": "2000-01-01",
+            "publisher": "Pocket Books",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 6,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "A thriller involving the Vatican and the Illuminati.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 7,
+        "fields": {
+            "isbn": "978-0440237222",
+            "title": "The Pelican Brief",
+            "publication_year": "1992-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 4,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about a law student uncovering a conspiracy.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 8,
+        "fields": {
+            "isbn": "978-0141439525",
+            "title": "Sense and Sensibility",
+            "publication_year": "1811-01-01",
+            "publisher": "T. Egerton",
+            "edition": "First Edition",
+            "total_copies": 4,
+            "available_copies": 4,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A novel of manners following the Dashwood sisters.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 9,
+        "fields": {
+            "isbn": "978-0618260269",
+            "title": "The Hobbit",
+            "publication_year": "1937-01-01",
+            "publisher": "George Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 15,
+            "available_copies": 12,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A children's fantasy novel preceding Lord of the Rings.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 10,
+        "fields": {
+            "isbn": "978-0451529060",
+            "title": "Nineteen Eighty-Four",
+            "publication_year": "1949-01-01",
+            "publisher": "Secker & Warburg",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 8,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A dystopian novel set in Oceania.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 11,
+        "fields": {
+            "isbn": "978-0385504201",
+            "title": "The Girl with the Dragon Tattoo",
+            "publication_year": "2005-01-01",
+            "publisher": "Norstedts Förlag",
+            "edition": "First Edition",
+            "total_copies": 12,
+            "available_copies": 10,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "The first book in the Millennium series.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 12,
+        "fields": {
+            "isbn": "978-0385504218",
+            "title": "The Client",
+            "publication_year": "1993-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 5,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A thriller about an 11-year-old boy who witnesses a suicide.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 13,
+        "fields": {
+            "isbn": "978-0141439501",
+            "title": "Emma",
+            "publication_year": "1815-01-01",
+            "publisher": "John Murray",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 7,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A novel about youthful hubris and romantic misunderstandings.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 14,
+        "fields": {
+            "isbn": "978-0007119295",
+            "title": "The Silmarillion",
+            "publication_year": "1977-01-01",
+            "publisher": "George Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 10,
+            "available_copies": 8,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A collection of mythopoeic works by J.R.R. Tolkien.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 15,
+        "fields": {
+            "isbn": "978-0451529077",
+            "title": "Burmese Days",
+            "publication_year": "1934-01-01",
+            "publisher": "Harper & Brothers",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 6,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "Orwell's first novel, set in colonial Burma.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 16,
+        "fields": {
+            "isbn": "978-0743273572",
+            "title": "The Lost Symbol",
+            "publication_year": "2009-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 11,
+            "available_copies": 9,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "A Robert Langdon thriller set in Washington D.C.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 17,
+        "fields": {
+            "isbn": "978-0440237239",
+            "title": "The Chamber",
+            "publication_year": "1994-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 8,
+            "available_copies": 6,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller involving a death row inmate.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 18,
+        "fields": {
+            "isbn": "978-0141439532",
+            "title": "Mansfield Park",
+            "publication_year": "1814-01-01",
+            "publisher": "T. Egerton",
+            "edition": "First Edition",
+            "total_copies": 5,
+            "available_copies": 5,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A novel of manners centered on Fanny Price.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 19,
+        "fields": {
+            "isbn": "978-0007119301",
+            "title": "Unfinished Tales",
+            "publication_year": "1980-01-01",
+            "publisher": "George Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 14,
+            "available_copies": 11,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A collection of stories and essays within Tolkien's legendarium.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 20,
+        "fields": {
+            "isbn": "978-0451529084",
+            "title": "Coming Up for Air",
+            "publication_year": "1939-01-01",
+            "publisher": "Victor Gollancz Ltd",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 5,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A novel exploring themes of escapism and disillusionment.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 21,
+        "fields": {
+            "isbn": "978-0385504225",
+            "title": "The Girl Who Played with Fire",
+            "publication_year": "2006-01-01",
+            "publisher": "Norstedts Förlag",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 7,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "The second book in the Millennium series.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 22,
+        "fields": {
+            "isbn": "978-0440237246",
+            "title": "The Runaway Jury",
+            "publication_year": "1996-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 4,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about jury manipulation.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 23,
+        "fields": {
+            "isbn": "978-0141439549",
+            "title": "Northanger Abbey",
+            "publication_year": "1817-01-01",
+            "publisher": "John Murray",
+            "edition": "First Edition",
+            "total_copies": 4,
+            "available_copies": 4,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A satirical novel about Gothic fiction.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 24,
+        "fields": {
+            "isbn": "978-0007119318",
+            "title": "The Children of Húrin",
+            "publication_year": "2007-01-01",
+            "publisher": "HarperCollins",
+            "edition": "First Edition",
+            "total_copies": 11,
+            "available_copies": 9,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A posthumously published epic fantasy novel by J.R.R. Tolkien.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 25,
+        "fields": {
+            "isbn": "978-0451529091",
+            "title": "Keep the Aspidistra Flying",
+            "publication_year": "1936-01-01",
+            "publisher": "Victor Gollancz Ltd",
+            "edition": "First Edition",
+            "total_copies": 5,
+            "available_copies": 4,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A novel exploring themes of money and social class.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 26,
+        "fields": {
+            "isbn": "978-0743273596",
+            "title": "Inferno",
+            "publication_year": "2013-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 10,
+            "available_copies": 8,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "Robert Langdon faces a chilling enigma centered on Dante's Inferno.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 27,
+        "fields": {
+            "isbn": "978-0440237253",
+            "title": "A Time to Kill",
+            "publication_year": "1989-01-01",
+            "publisher": "Wynwood Press",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 5,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A courtroom thriller set in Mississippi.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 28,
+        "fields": {
+            "isbn": "978-0141439556",
+            "title": "Persuasion",
+            "publication_year": "1817-01-01",
+            "publisher": "John Murray",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 6,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "Austen's last completed novel, about second chances.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 29,
+        "fields": {
+            "isbn": "978-0007119325",
+            "title": "Roverandom",
+            "publication_year": "1998-01-01",
+            "publisher": "HarperCollins",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 7,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A children's novella by J.R.R. Tolkien.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 30,
+        "fields": {
+            "isbn": "978-0451529107",
+            "title": "The Road to Wigan Pier",
+            "publication_year": "1937-01-01",
+            "publisher": "Victor Gollancz Ltd",
+            "edition": "First Edition",
+            "total_copies": 8,
+            "available_copies": 6,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A documentary-style investigation of poverty in Northern England.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 31,
+        "fields": {
+            "isbn": "978-0743273602",
+            "title": "Origin",
+            "publication_year": "2017-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 12,
+            "available_copies": 10,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "Robert Langdon explores the intersection of science and religion in Spain.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 32,
+        "fields": {
+            "isbn": "978-0440237260",
+            "title": "The Firm",
+            "publication_year": "1991-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 7,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about a young lawyer joining a corrupt firm.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 33,
+        "fields": {
+            "isbn": "978-0141439563",
+            "title": "Lady Susan",
+            "publication_year": "1871-01-01",
+            "publisher": "Richard Bentley",
+            "edition": "First Edition",
+            "total_copies": 5,
+            "available_copies": 5,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "An epistolary novel by Jane Austen.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 34,
+        "fields": {
+            "isbn": "978-0007119332",
+            "title": "The Adventures of Tom Bombadil",
+            "publication_year": "1962-01-01",
+            "publisher": "George Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 6,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A collection of poems relating to the world of Middle-earth.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 35,
+        "fields": {
+            "isbn": "978-0451529114",
+            "title": "Homage to Catalonia",
+            "publication_year": "1938-01-01",
+            "publisher": "Secker & Warburg",
+            "edition": "First Edition",
+            "total_copies": 6,
+            "available_copies": 5,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "Orwell's personal account of the Spanish Civil War.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 36,
+        "fields": {
+            "isbn": "978-0743273619",
+            "title": "Digital Fortress",
+            "publication_year": "1998-01-01",
+            "publisher": "St. Martin's Press",
+            "edition": "First Edition",
+            "total_copies": 8,
+            "available_copies": 6,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "A thriller involving cryptography and the NSA.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 37,
+        "fields": {
+            "isbn": "978-0440237277",
+            "title": "The Street Lawyer",
+            "publication_year": "1998-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 5,
+            "available_copies": 3,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about a lawyer who leaves his firm to work for the homeless.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 38,
+        "fields": {
+            "isbn": "978-0141439570",
+            "title": "Love and Friendship",
+            "publication_year": "1922-01-01",
+            "publisher": "Chatto & Windus",
+            "edition": "First Edition",
+            "total_copies": 4,
+            "available_copies": 4,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "A juvenilia work by Jane Austen.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 39,
+        "fields": {
+            "isbn": "978-0007119349",
+            "title": "Sir Gawain and the Green Knight",
+            "publication_year": "1975-01-01",
+            "publisher": "George Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 10,
+            "available_copies": 8,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A Middle English chivalric romance.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 40,
+        "fields": {
+            "isbn": "978-0451529121",
+            "title": "The Lion and the Unicorn",
+            "publication_year": "1941-01-01",
+            "publisher": "Secker & Warburg",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 6,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "Orwell's essay on English socialism and patriotism.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 41,
+        "fields": {
+            "isbn": "978-0743273626",
+            "title": "Deception Point",
+            "publication_year": "2001-01-01",
+            "publisher": "Simon & Schuster",
+            "edition": "First Edition",
+            "total_copies": 11,
+            "available_copies": 9,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "A thriller about a NASA discovery and political intrigue.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 42,
+        "fields": {
+            "isbn": "978-0440237284",
+            "title": "The Rainmaker",
+            "publication_year": "1995-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 8,
+            "available_copies": 7,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller about a young lawyer taking on a corrupt insurance company.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 43,
+        "fields": {
+            "isbn": "978-0141439587",
+            "title": "The Watsons",
+            "publication_year": "1804-01-01",
+            "publisher": "Unfinished",
+            "edition": "Unfinished",
+            "total_copies": 4,
+            "available_copies": 4,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "An unfinished novel by Jane Austen.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 44,
+        "fields": {
+            "isbn": "978-0007119356",
+            "title": "Leaf by Niggle",
+            "publication_year": "1945-01-01",
+            "publisher": "Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 7,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A short story by J.R.R. Tolkien, allegorical in nature.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 45,
+        "fields": {
+            "isbn": "978-0451529138",
+            "title": "Animal Farm",
+            "publication_year": "1949-01-01",
+            "publisher": "Secker & Warburg",
+            "edition": "Another Edition",
+            "total_copies": 6,
+            "available_copies": 5,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A different edition of the classic satire.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 46,
+        "fields": {
+            "isbn": "978-0743273633",
+            "title": "The Girl Who Kicked the Hornets' Nest",
+            "publication_year": "2007-01-01",
+            "publisher": "Norstedts Förlag",
+            "edition": "First Edition",
+            "total_copies": 13,
+            "available_copies": 11,
+            "category_id": 1,
+            "author_id": 1,
+            "description": "The final book in the original Millennium trilogy.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 47,
+        "fields": {
+            "isbn": "978-0440237291",
+            "title": "The Brethren",
+            "publication_year": "2000-01-01",
+            "publisher": "Doubleday",
+            "edition": "First Edition",
+            "total_copies": 7,
+            "available_copies": 6,
+            "category_id": 2,
+            "author_id": 2,
+            "description": "A legal thriller involving prison inmates and blackmail.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 48,
+        "fields": {
+            "isbn": "978-0141439594",
+            "title": "Sanditon",
+            "publication_year": "1817-01-01",
+            "publisher": "John Murray",
+            "edition": "Unfinished",
+            "total_copies": 6,
+            "available_copies": 6,
+            "category_id": 3,
+            "author_id": 3,
+            "description": "An unfinished novel by Jane Austen, later completed by another author.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 49,
+        "fields": {
+            "isbn": "978-0007119363",
+            "title": "Smith of Wootton Major",
+            "publication_year": "1967-01-01",
+            "publisher": "Allen & Unwin",
+            "edition": "First Edition",
+            "total_copies": 10,
+            "available_copies": 8,
+            "category_id": 4,
+            "author_id": 4,
+            "description": "A short story by J.R.R. Tolkien.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "book.book",
+        "pk": 50,
+        "fields": {
+            "isbn": "978-0451529145",
+            "title": "The Clergyman's Daughter",
+            "publication_year": "1935-01-01",
+            "publisher": "Victor Gollancz Ltd",
+            "edition": "First Edition",
+            "total_copies": 9,
+            "available_copies": 7,
+            "category_id": 5,
+            "author_id": 5,
+            "description": "A novel exploring themes of religion and societal constraints.",
+            "added_date": "2024-02-29T10:00:00Z",
+            "updated_date": "2024-02-29T10:00:00Z"
+        }
+    }
+]

@@ -1,0 +1,302 @@
+[
+    {
+        "model": "record.borrowedrecord",
+        "pk": 1,
+        "fields": {
+            "book_id": 1,
+            "member_id": 1,
+            "borrow_date": "2024-02-15T10:00:00Z",
+            "due_date": "2024-03-01",
+            "return_date": "2024-02-28T12:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 2,
+        "fields": {
+            "book_id": 3,
+            "member_id": 2,
+            "borrow_date": "2024-02-20T14:00:00Z",
+            "due_date": "2024-03-07",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 3,
+        "fields": {
+            "book_id": 7,
+            "member_id": 3,
+            "borrow_date": "2024-02-01T09:00:00Z",
+            "due_date": "2024-02-15",
+            "return_date": "2024-02-20T15:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "2.50",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 4,
+        "fields": {
+            "book_id": 12,
+            "member_id": 4,
+            "borrow_date": "2024-02-25T11:00:00Z",
+            "due_date": "2024-03-10",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 5,
+        "fields": {
+            "book_id": 18,
+            "member_id": 5,
+            "borrow_date": "2024-01-20T16:00:00Z",
+            "due_date": "2024-02-03",
+            "return_date": "2024-02-05T11:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.50",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 6,
+        "fields": {
+            "book_id": 25,
+            "member_id": 6,
+            "borrow_date": "2024-02-28T09:30:00Z",
+            "due_date": "2024-03-14",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 7,
+        "fields": {
+            "book_id": 2,
+            "member_id": 7,
+            "borrow_date": "2024-02-10T13:00:00Z",
+            "due_date": "2024-02-24",
+            "return_date": "2024-02-25T14:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.25",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 8,
+        "fields": {
+            "book_id": 4,
+            "member_id": 8,
+            "borrow_date": "2024-02-18T17:00:00Z",
+            "due_date": "2024-03-04",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 9,
+        "fields": {
+            "book_id": 8,
+            "member_id": 9,
+            "borrow_date": "2024-01-25T10:30:00Z",
+            "due_date": "2024-02-08",
+            "return_date": "2024-02-10T16:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.75",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 10,
+        "fields": {
+            "book_id": 15,
+            "member_id": 10,
+            "borrow_date": "2024-02-22T12:30:00Z",
+            "due_date": "2024-03-08",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 11,
+        "fields": {
+            "book_id": 22,
+            "member_id": 1,
+            "borrow_date": "2024-01-10T11:00:00Z",
+            "due_date": "2024-01-24",
+            "return_date": "2024-02-15T13:00:00Z",
+            "borrow_status": "overdue",
+            "overdue_fine_count": "5.20",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 12,
+        "fields": {
+            "book_id": 29,
+            "member_id": 2,
+            "borrow_date": "2024-02-05T15:00:00Z",
+            "due_date": "2024-02-19",
+            "return_date": "2024-02-20T10:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.25",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 13,
+        "fields": {
+            "book_id": 35,
+            "member_id": 3,
+            "borrow_date": "2024-02-12T18:00:00Z",
+            "due_date": "2024-02-26",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 14,
+        "fields": {
+            "book_id": 42,
+            "member_id": 4,
+            "borrow_date": "2024-01-28T08:00:00Z",
+            "due_date": "2024-02-11",
+            "return_date": "2024-02-14T17:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.75",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 15,
+        "fields": {
+            "book_id": 48,
+            "member_id": 5,
+            "borrow_date": "2024-02-29T11:30:00Z",
+            "due_date": "2024-03-15",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 16,
+        "fields": {
+            "book_id": 6,
+            "member_id": 6,
+            "borrow_date": "2024-02-03T14:30:00Z",
+            "due_date": "2024-02-17",
+            "return_date": "2024-02-18T09:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.25",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 17,
+        "fields": {
+            "book_id": 9,
+            "member_id": 7,
+            "borrow_date": "2024-02-24T19:00:00Z",
+            "due_date": "2024-03-09",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 18,
+        "fields": {
+            "book_id": 16,
+            "member_id": 8,
+            "borrow_date": "2024-01-15T13:30:00Z",
+            "due_date": "2024-01-29",
+            "return_date": "2024-02-20T11:00:00Z",
+            "borrow_status": "overdue",
+            "overdue_fine_count": "7.75",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 19,
+        "fields": {
+            "book_id": 23,
+            "member_id": 9,
+            "borrow_date": "2024-02-01T16:30:00Z",
+            "due_date": "2024-02-15",
+            "return_date": "2024-02-16T18:00:00Z",
+            "borrow_status": "returned",
+            "overdue_fine_count": "0.25",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "record.borrowedrecord",
+        "pk": 20,
+        "fields": {
+            "book_id": 30,
+            "member_id": 10,
+            "borrow_date": "2024-02-26T10:00:00Z",
+            "due_date": "2024-03-12",
+            "return_date": null,
+            "borrow_status": "borrowed",
+            "overdue_fine_count": "0.00",
+            "created_at": "2024-02-29T10:00:00Z",
+            "updated_at": "2024-02-29T10:00:00Z"
+        }
+    }
+]
