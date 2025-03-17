@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "debug_toolbar",
     'django_filters',
     'rest_framework',
+    'djoser',
     'api',
     'book',
     'record',
@@ -132,6 +133,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING': False,
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+}
+
+SIMPLE_JWT = {
+   'AUTH_HEADER_TYPES': ('JWT',),
+}
+
+DJOSER = {
+    'SERIALIZERS': {'user_create': 'user.serializers.UserCreateSerialier'},
 }
 
 INTERNAL_IPS = [

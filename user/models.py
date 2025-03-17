@@ -1,7 +1,8 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.core.validators import RegexValidator
-
+from django.utils import timezone
+from datetime import timedelta
 # Create your models here.
 
 class Member(AbstractUser):
@@ -13,8 +14,8 @@ class Member(AbstractUser):
             )
     ])
     address = models.TextField()
-    membership_date = models.DateTimeField()
-    membership_expiry_date = models.DateTimeField()
+    membership_date = models.DateTimeField(default=timezone.now)
+    membership_expiry_date = models.DateTimeField(default=timezone.now()+timedelta(days=30))
     MEMBER_TYPE_CHOICES = [
         ('regular', 'Regular'),
         ('student', 'Student'),
